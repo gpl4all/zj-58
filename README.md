@@ -13,3 +13,13 @@ This is the solution:
 PPD is fixed and works.
 Filter is provided as src (you can found a list of packages need to be installed in order to build it in the header of source).
 Also, printing of blank lines is optimized.
+
+
+zj-80
+=====
+
+The original driver, rastertoxp, for XPrinter is in 32-bit. If you use it on 64-bit, you will get Filter Failed error.
+
+In addition, you will see rastertoxp crashed with signal 11.
+
+I, @moeseth, added zj-80 to support zj-80 size printing.
